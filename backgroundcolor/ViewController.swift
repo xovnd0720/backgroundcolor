@@ -15,6 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func changered(_ sender: Any) {
+        self.view.backgroundColor = UIColor.red
+    }
+    
+    @IBAction func cgangeyellow(_ sender: Any) {
+        self.view.backgroundColor = UIColor.yellow
+    }
+    
+    @IBAction func changegreen(_ sender: Any) {
+        self.view.backgroundColor = UIColor.green
+    }
 }
 
